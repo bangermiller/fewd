@@ -1,0 +1,47 @@
+body	{
+	font-family: Verdana, Geneva, sans-serif;
+	background-size: cover;
+}
+hr	{
+	height: 0;
+	max-height: 0;
+}
+li	{
+	display: inline-block;
+    color: black;
+    text-align: center;
+    padding-right: 15px;
+	}
+img	{
+	border: 10px solid black;
+    padding: 5px;
+    width: 50%;
+}
+a {
+	color: red;
+}
+#EXPERIENCE	{
+	color: black;
+  	}
+#PROJECTS	{
+	color: black;
+	}
+#EDUCATION	{
+	color: black;
+	}	
+#MIDDLE	{
+	text-align: center;
+	}
+#CENTER{
+	text-align: center;
+}
+.HEAD	{
+text-align: center;
+	}
+#lpabout	{
+	max-width: 475px;
+}
+#aboutbody	{
+	font-size: 18pt;
+}
+
