@@ -15,7 +15,7 @@ li	{
 img	{
 	border: 10px solid black;
     padding: 5px;
-    width: 50%;
+    width: 30%;
 }
 a {
 	color: red;
@@ -41,9 +41,15 @@ a {
 .HEAD	{
 	text-align: center;
 	}
-#lpabout	{
-	max-width: 475px;
+#aboutbody {
+	text-align: center;
+	padding: 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
 }
-#aboutbody	{
-	font-size: 18pt;
+.IMAGE {
+	width: 20%;
 }

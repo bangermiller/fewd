@@ -1,0 +1,59 @@
+/*when you want to change two tags to the same thing you use a comma*/
+h1, h2	{
+	font-family: arial;
+	background-color: lightgray;
+	padding: 12px 0px 12px 6px;
+}
+
+code {
+	background-color: lightgrey;
+	padding: 0px 12px 0px 12px;
+}
+
+.announcement {
+	background-color: indianred;
+	color: white;
+	margin: 96px 0px 96px 0px;
+	padding: 24px 48px 24px 48px;
+}
+
+/* Apply style to all list items in unordered lists only*/
+ul li {
+	font-family: "comic Sans MS";
+	background-color: beige;
+	margin-bottom: 16px;
+}
+
+/*Make all list items in ordered list bigger (24px)*/
+ol li {
+	font-size: 24px;
+	background-color: beige;
+	margin-bottom: 12px;
+}
+
+/*make all <code> tags inside announcements black text on white background*/
+.announcement code {
+	background-color: white;
+	color: black;
+
+}/*make the last p (or selector) blue*/
+p:last-child {
+	color: blue;
+}
+/*Box Model*/
+
+body { 
+	padding-left: 300px;
+	padding-right: 300px; 
+}
+nav li{
+	display: inline;
+}
+h1, h2 {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+nav ul {
+	text-align: center;
+}

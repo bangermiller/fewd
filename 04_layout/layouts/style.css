@@ -1,0 +1,129 @@
+body {
+  color: white;
+  font-family: Arial;
+  font-size: 24px;
+}
+
+section {
+  padding: 100px;
+}
+
+.two-columns {
+  background: slategray;
+}
+
+.two-columns:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.three-columns {
+  background: lightgray;
+}
+
+.three-columns:after {
+  content: "";
+  display:  table;
+  clear: both;
+}
+
+.four-columns {
+  background: orange;
+}
+
+.four-columns:after {
+  content: "";
+  display:  table;
+  clear: both;
+}
+
+.two-columns-multiline {
+  background: gray;
+}
+
+.two-columns-multiline:after {
+  content: "";
+  display:  table;
+  clear: both;
+}
+.color {
+  height: 200px;
+}
+
+.red {
+  background: firebrick;
+  width: 50%;
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;  
+  box-sizing: border-box;
+}
+
+.blue {
+  background: navy;
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+}
+
+.orange {
+  background: orange;
+  width: 33.3%;
+  float: left;
+}
+
+.yellow {
+  background: gold;
+  width: 33.3%;
+  float: left;
+}
+
+.green {
+  background: forestgreen;
+  width: 33.3%;
+  float: left
+}
+
+.pink {
+  background: pink;
+  width: 25%;
+  float: left;
+}
+
+.purple {
+  background: purple;
+  width: 25%;
+  float: left;
+}
+.black {
+  background: black;
+  width: 25%;
+  float: left;
+}
+.gold {
+  background: gold;
+  width: 25%;
+  float: left;
+}
+.one {
+  background: pink;
+  width: 50%;
+  float: left;
+}
+
+.two {
+  background: purple;
+  width: 50%;
+  float: left;
+}
+.three {
+  background: blue;
+  width: 50%;
+  float: left;
+}
+.four {
+  background: gold;
+  width: 50%;
+  float: left;
+}
