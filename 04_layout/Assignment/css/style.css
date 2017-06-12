@@ -1,25 +1,121 @@
 body {
-  font-family: Open Sans;
-  font-size: 24px;
+  font-family: Impact header;
+  font-size: 60 px;
 }
+
 header {
   height: 400px;
   padding: 100px 100px 100px 100px; 
-
   background: url(file:///Users/bonnie/Desktop/code/fewd/04_layout/Assignment/images/header_bg.jpg);
   background-size: cover;
-
+  color: white;
+  text-align: center;
 }
 
+header h1  {
+  font-family: Impact;
+  font-size: 60px;
+  margin-left: 60px;
+  margin-bottom: 50px;
+  font-weight: bolder;
+  text-align: left;
+}
+
+header h2 {
+  font-family: Impact header;
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-left: 20px;
+}
+
+button {
+  border: none;
+  font-family: impact header;
+  padding: 10px 24px;
+  border-radius: 5%;
+  font-size: 24px;
+}
+
+header button {
+  color: midnightblue;
+  background-color: gold;
+}
 
 #value-proposition {
   height: 400px;
-  background-color: papayawhip;
+  background-color: midnightblue;
+  color: white;
+  padding: 50px 50px 50px 50px;
+  border: 0px;
+  margin: none;
+  font-size: : 34px;
+  box-sizing: border-box; 
+}
+
+.image {
+  display: inline;
+  float: left;
+  width: 33%;
+  text-align: center;
+  height: auto;
+}
+
+.image:after {
+  content: "";
+  clear: both;
+  line-height: 0;
+  height: 0;
 }
 
 #benefits {
   height: 400px;
-  background-color: lightblue;
+  background-color: white;
+  padding: 100px 100px 100px 100px;
+}
+
+#benefits h1 {
+  font-weight: bold;
+  color: midnightblue;
+  font-size: 48px;
+  margin-bottom: 40px;
+}
+
+#benefits p {
+  font-size: 24px;
+  margin-bottom: 60px;
+}
+
+#today {
+  float: left;
+  width: 50%;
+}
+
+#future {
+  float: left;
+  width: 50%;
+}
+
+#future: after {
+  content: "";
+  clear: both;
+  line-height: 0;
+  height: 0;
+}
+
+#benefitpt2 h2 {
+  font-weight: bolder;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+#benefitpt2 ul {
+  list-style: disc;
+  padding-left: 20px;
+  font-size: 20px
+}
+
+#benefitpt2 li {
+  margin-bottom: 20px;
 }
 
 #testimonial {
