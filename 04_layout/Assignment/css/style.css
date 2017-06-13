@@ -153,6 +153,8 @@ aside button {
   margin-top: 30px;
   margin-bottom: 30px;
   margin-left: 45%;
+  padding: 10px 10px 10px 10px;
+  box-sizing: border-box;
 }
 
 footer {
@@ -172,4 +174,42 @@ footer h2 {
 footer #links {
   text-align: center;
   margin-bottom: 25px;
+}
+
+.two-columns {
+  height: 900px;
+  background: grey;
+}
+
+.two-columns: after {
+  content: "";
+  display: table;
+  margin: 0, auto;
+  clear: both;
+}
+
+.two-columns #blogposts {
+  background-color: darkgrey;
+  height: 900px;
+  width: 50%;
+  float: right;
+}
+.two-columns #relaxr {
+  background-color: white;
+  height: 900px;
+  width: 50%;
+  float: right;
+}
+
+#blogposts #blogpost1 {
+  background-color: darkgrey;
+  height: 300px;
+}
+#blogposts #blogpost2 {
+  background-color: grey;
+  height: 300px;
+}
+#blogposts #blogpost3 {
+  background-color: darkgrey;
+  height: 300px;
 }
