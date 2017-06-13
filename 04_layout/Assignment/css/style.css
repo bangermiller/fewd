@@ -176,6 +176,14 @@ footer #links {
   margin-bottom: 25px;
 }
 
+#bloghead {
+  height: 50px;
+  background: black;
+  font-size: 32px;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+
 .two-columns {
   height: 900px;
   background: grey;
@@ -194,6 +202,7 @@ footer #links {
   width: 50%;
   float: right;
 }
+
 .two-columns #relaxr {
   background-color: white;
   height: 900px;
@@ -205,11 +214,51 @@ footer #links {
   background-color: darkgrey;
   height: 300px;
 }
+
 #blogposts #blogpost2 {
   background-color: grey;
   height: 300px;
 }
+
 #blogposts #blogpost3 {
   background-color: darkgrey;
   height: 300px;
 }
+
+#relaxr p {
+  padding: 10px 50px 20px 50px;
+  box-sizing: border-box;
+  font-size: 20px;
+  text-align: center;
+}
+
+#relaxr h1 {
+  padding-top: 10px;
+  padding-left: 110px;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.two-columns #officeimage {
+  padding: 0px 50px 50px 60px;
+}
+
+#partners h1 {
+  text-align: center;
+  padding: 10px 50px 20px 50px;
+
+}
+#partners ul {
+  font-size: 20px;
+  text-align: center;
+  padding: 5px 5px 5px 5px;
+  box-sizing: border-box;
+
+}
+#partners li {
+  padding: 5px 0;
+}
+
+
+
+
