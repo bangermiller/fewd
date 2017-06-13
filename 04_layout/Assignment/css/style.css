@@ -6,7 +6,7 @@ body {
 header {
   height: 400px;
   padding: 100px 100px 100px 100px; 
-  background: url(file:///Users/bonnie/Desktop/code/fewd/04_layout/Assignment/images/header_bg.jpg);
+  background: url(../images/header_bg.jpg);
   background-size: cover;
   color: white;
   text-align: center;
@@ -121,7 +121,7 @@ header button {
 
 #testimonial {
   height: 400px;
-  background: url(file:///Users/bonnie/Desktop/code/fewd/04_layout/Assignment/images/testimonial_bg.jpg);
+  background: url(../images/testimonial_bg.jpg);
   background-size: cover;
   color: white;
   padding: 100px 100px 100px 100px;
