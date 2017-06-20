@@ -303,9 +303,7 @@ footer p {
 @media screen and (max-width: 48rem) {
   .container,
   #benefits .container,
-  .container blockquote {
-    width: 100%;
-  }
+  .container blockquote, 
   #benefits p, 
   #benefits ul,
   img {
