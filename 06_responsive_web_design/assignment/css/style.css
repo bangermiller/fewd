@@ -267,7 +267,11 @@ blockquote span {
   padding: 1.875rem;
   text-align: center;
 }
+.blog-container-two {
+  width: 60%
+}
 
+}
 footer {
   background: #121212;
   padding: 4.0625rem 0 2.8125rem;
@@ -288,11 +292,21 @@ footer p {
   font-weight: 600;
 }
 @media screen and (max-width: 768px) {
- #benefits ul, .container, #testimonial, blockquote, #benefits p #container .post{
+ .container, #main #posts, #main img, .one, .two, .blog-container-two{
   width: 100%;
  }
- #main .container #posts, #main .container sidebar {
-  display: block
+ blockquote, .three {
+  width: 100%;
  }
 
+
 }
+
+
+
+
+
+
+
+
+
