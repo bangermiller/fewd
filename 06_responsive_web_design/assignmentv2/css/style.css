@@ -183,7 +183,8 @@ blockquote span {
   vertical-align: top;
 }
 #sidebar {
-  width: 15rem;
+  max-width: 15rem;
+  width: 100%;
   display: inline-block;
   vertical-align: top;
 }
@@ -310,4 +311,13 @@ footer p {
   img {
     width: 100%;
   }
+   header nav {
+    float: none;
+   }
+   #main {
+    margin-top: 2%;
+   }
+   .container .post {
+    margin-bottom: 2%;
+   }
 }
