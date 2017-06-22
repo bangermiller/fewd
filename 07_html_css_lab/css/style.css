@@ -1,0 +1,95 @@
+body {
+	font-family: arial;
+}
+button {
+	font-family: impact;	
+}
+h1, h2,h3, h4, h5, h6, footer {
+	font-family: georgia;
+}
+.container {
+  max-width: 70rem;
+  width: 100%;
+  margin: 0 auto;
+
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+header {
+	background-color: black;
+	border-bottom: .25rem solid yellow;
+}
+header h1 {
+	color: yellow;
+	font-size: 2rem;
+	float: left;
+	padding-bottom: 1rem;
+	padding-top: .50rem; 
+	padding-left: 2rem;
+}
+header nav {
+	float: right;
+}
+.find {
+	font-family: impact;
+	text-transform: uppercase;
+}
+header nav ul li {
+	color: white;
+	font-size: 1rem;
+	display: inline-block;
+	padding-top: 1rem;
+	padding-right: 2rem;
+	padding-bottom: 1.23rem;
+ 	text-decoration: none;
+
+}
+.description-sentence {
+	background-color: grey;
+	padding-top: 1rem;
+	padding-bottom:1rem;
+	font-family: Georgia;
+	font-style: italic;
+	font-weight: bold;
+
+
+}
+.description-sentence p {
+	text-align: center;
+	font-size: 2rem;
+}
+.strikethrough {
+	
+	text-decoration: line-through;
+}
+.underline {
+	text-decoration: underline;
+}
+.main {
+	background-image: url(../images/coworking.jpg);
+	height: 40rem;
+}
+
+.info-boxes {
+	background-color: white;
+}
+.sign-up-call-to-action {
+	text-family: Georgia;
+	background-color: rgba(255,255,255,0.75);
+	box-shadow: 0 0 5px black;
+	text-align: center;
+}
+
+
+footer {
+	background-color: black;
+	color: white;
+}
+

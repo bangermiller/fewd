@@ -1,0 +1,79 @@
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+button {
+  font-family: Impact;
+  text-transform: uppercase;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia;
+}
+
+header {
+  color: white;
+  background-color: black;
+
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+header h2 a {
+  color: yellow;
+  text-decoration: none;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.primary-navigation {
+  font-family: Impact;
+  text-transform: uppercase;
+}
+
+.motto {
+  background-color: lightgray;
+
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  font-family: Georgia;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.strikethrough {
+  color: gray;
+  text-decoration: line-through;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.hero {
+  background-image: url('../images/coworking.jpg');
+
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.sign-up-call-to-action {
+  background-color: rgba(255, 255, 255, 0.75);
+  box-shadow: 0 0 5px black;
+ 
+}
+
+.sign-up-call-to-action h1 {
+  font-family: Arial;
+}
+
+footer {
+  color: white;
+  background-color: black;
+}
