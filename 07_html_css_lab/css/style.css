@@ -143,11 +143,18 @@ footer {
 	padding-left: .25rem;
 }
 
+@media screen and (max-width: 48rem) {
+header nav {
+	text-align: left;
+}
+.info-box {
+	width: 100%;
+}
+
+}
+
 /******************************************
 /* Developers
 /*******************************************/
 
 
-header .developer-head {
- background-color: black;
-}

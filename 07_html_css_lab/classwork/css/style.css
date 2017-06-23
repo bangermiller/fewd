@@ -134,3 +134,21 @@ footer {
   color: white;
   background-color: black;
 }
+
+@media screen and (max-width: 600px) {
+  .primary-navigation, .secondary-navigation {
+    display: block;
+  }
+
+  header nav {
+    float: none;
+  }
+
+  .sign-up-call-to-action {
+    width: 100%;
+  }
+
+  .info-box {
+    width: 100%;
+  }
+}
