@@ -6,6 +6,7 @@ button {
 }
 h1, h2,h3, h4, h5, h6, footer {
 	font-family: georgia;
+	font-weight: bold;
 }
 .container {
   max-width: 70rem;
@@ -29,13 +30,13 @@ header {
 header h1 {
 	color: yellow;
 	font-size: 2rem;
-	float: left;
-	padding-bottom: 1rem;
+	padding-bottom: .25rem;
 	padding-top: .50rem; 
 	padding-left: 2rem;
 }
 header nav {
-	float: right;
+	text-align: right;
+
 }
 .find {
 	font-family: impact;
@@ -45,12 +46,15 @@ header nav ul li {
 	color: white;
 	font-size: 1rem;
 	display: inline-block;
+
 	padding-top: 1rem;
 	padding-right: 2rem;
 	padding-bottom: 1.23rem;
- 	text-decoration: none;
-
-}
+ }
+header nav ul li a {
+	color: white;
+	text-decoration: none;
+} 	
 .description-sentence {
 	background-color: grey;
 	padding-top: 1rem;
@@ -74,22 +78,76 @@ header nav ul li {
 }
 .main {
 	background-image: url(../images/coworking.jpg);
-	height: 40rem;
 }
 
 .info-boxes {
 	background-color: white;
 }
+.sign-up-call-to-action h2 {
+	font-family: arial;
+	font-weight: bold;
+	padding: .75rem;
+}
 .sign-up-call-to-action {
 	text-family: Georgia;
 	background-color: rgba(255,255,255,0.75);
 	box-shadow: 0 0 5px black;
-	text-align: center;
+	font-size: 2rem;
+	width: 40%;
+	float: right;
+	
+	box-sizing: border-box;
+	margin-right: 2rem;
+	margin-top: 5rem;
+	margin-bottom: 2rem;
+	padding: .5rem;
 }
 
+.sign-up-call-to-action button {
+	width: 100%;
+	background-color: gold;
+	}
+
+.info-box {
+	width: 33%;
+	float: left;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	box-sizing: border-box;
+}	
+.info-box p {
+	padding-top: .5rem;
+	padding-bottom: 1rem;
+
+}
+.info-box button {
+	background-color: lightgray;
+	color: black;
+	width: 100%;
+	margin-left: .25rem;
+	margin-right: .25rem;
+	margin-bottom: 1rem;
+}
+	
+.info-boxes h2 {
+	padding-top: .25rem;
+	padding-bottom: .25rem;
+
+}
 
 footer {
 	background-color: black;
 	color: white;
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+	padding-left: .25rem;
 }
 
+/******************************************
+/* Developers
+/*******************************************/
+
+
+header .developer-head {
+ background-color: black;
+}
