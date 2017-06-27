@@ -173,11 +173,10 @@ header nav {
 }
 .profile ul li {
 	display: inline;
-	background-color: lightgray;
+	background-color: lightgrey;
 	padding-right: .15rem;
 	border-radius: 70%;
 	font-size: .75rem;
-
 
 }
 
