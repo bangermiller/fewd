@@ -157,4 +157,13 @@ header nav {
 /* Developers
 /*******************************************/
 
+.developer-nav  {
+	display: inline;
+}
+	
+.profile {
+	width: 25%;
+	float: left;
+}
+
 
