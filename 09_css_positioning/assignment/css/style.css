@@ -134,6 +134,13 @@ footer {
   color: white;
   background-color: black;
 }
+.developers {
+  display: flex;
+  flex-wrap: wrap;
+}
+.developer {
+  width: 25%;
+}
 
 @media screen and (max-width: 600px) {
   .primary-navigation, .secondary-navigation {
