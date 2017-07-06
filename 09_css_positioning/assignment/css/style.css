@@ -135,12 +135,44 @@ footer {
   background-color: black;
 }
 .developers {
+  padding-top: 2rem;
+  padding-right: .5rem;
+  padding-left: .5rem;
+  background-color: lightgray;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 .developer {
-  width: 25%;
+  background-color: white;
+  padding-bottom: 2rem;
+  width: 23%;
+  box-sizing: border-box;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  padding-right: .5rem;
+  padding-left: .5rem;
+  padding-top: .5rem;
 }
+
+.developer ul li {
+  display: inline;
+}
+
+.contact-button {
+  background-color: yellow;
+  color: black;
+
+}
+button { 
+  background-color: yellow;
+  color: black;
+  width: 100%;
+
+   }
+
+
 
 @media screen and (max-width: 600px) {
   .primary-navigation, .secondary-navigation {
