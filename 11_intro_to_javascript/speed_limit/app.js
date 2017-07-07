@@ -1,8 +1,13 @@
 
-	var number = parseInt (prompt ("Enter a number"));
+var speedLimit = parseInt ( prompt ("What's the speed limit?") );
+var userSpeed = parseInt ( prompt ("What's your speed?") );
 
-	if (number > 100) {
-		console.log("whoa, that's a really big number");
-	} else {
-		console.log ("lame, that's a small number");
-	}
+
+if(userSpeed > speedLimit + 10) {
+	console.log("whoa, slow down dude!");
+} else if(userSpeed < speedLimit - 10) {
+	console.log ("Go faster");
+} else {
+  console.log("Keep on keepin on");
+}
+	
