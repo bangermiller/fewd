@@ -2,7 +2,33 @@
 
 // Should build the following HTML structure for a todo:
 // <li class="item todo">
+
+	var itemListArray = [];
+	var addItem = $("#new-item-button");
+	addItem.on( "click", function(event) {
+	var newItem = $("#new-item-text");
+	var itemValue = ($(newItem).val());
+	var newLi = $("<li></li>").text(itemValue);
+	console.log(newLi);
+	
+	var toDo = $("#item-list-to-do");
+	newLi.appendTo(toDo);
+	newLi.innerHtml = "";
+	console.log($("item-list-to-do"));
+	itemListArray.push(newLi);
+	console.log(itemListArray);
+});
+	
+	
+	var done = $("#done");
+	done.on("click", function() {
+	var doneList = $("item-list-done");
+	for(var i = 0; i <itemListArray.length; i++) {
+		itemListArray[i].append(doneList);
+	}
+	});
 // 	<p>Wrap things in ca$h</p>
+
 // 	<span class="label">Mark as Done</span>
 // </li>
 
@@ -13,7 +39,7 @@
 // </li>
 
 
-var addNewItem = function(item) {
+var addNewItem = function() {
 
 };
 
@@ -36,6 +62,7 @@ var items = [
   "Wrap things in ca$h",
   "Write blog post about selfies"
 ];
+
 
 var renderAllItems = function(itemsToRender) {
 
