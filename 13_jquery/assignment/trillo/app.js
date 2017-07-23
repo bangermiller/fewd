@@ -9,14 +9,14 @@
 	var newItem = $("#new-item-text");
 	var itemValue = ($(newItem).val());
 	var newLi = $("<li></li>").text(itemValue);
-	console.log(newLi);
+	//console.log(newLi);
 	
 	var toDo = $("#item-list-to-do");
 	newLi.appendTo(toDo);
 	newLi.innerHtml = "";
-	console.log($("item-list-to-do"));
+	//console.log($("item-list-to-do"));
 	itemListArray.push(newLi);
-	console.log(itemListArray);
+	//console.log(itemListArray);
 });
 	
 	
