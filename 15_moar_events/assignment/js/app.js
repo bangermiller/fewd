@@ -1,29 +1,59 @@
-console.log("loaded!");
+console.log('loaded!');
 
 //Call $.val() on inputs to get the string value of your user's input
-$("#submit-btn").click(function(){
+$('#submit-btn').click(function(){
 	event.preventDefault();
-	var city = $("#city-type").val();
+	var city = $('#city-type');
 	console.log('did it');
 
-	if (city = $("austin")) {
-	$("body").css("background-image", "url(file:///Users/bonnie/Desktop/code/fewd/15_moar_events/assignment/images/austin.jpg)");
+	 if 
+	 	(city.val() == 'austin' ||
+        city.val() == 'ATX' ||
+        city.val() == 'Austin') { 
+       	$('body').removeClass();
+      	$('body').addClass('austin');
+      console.log('austin submitted');	
 	} 
+	else if 
+		(city.val() == 'SF' ||
+        city.val() == 'San Francisco' ||
+        city.val() == 'Bay Area') { 
+       	$('body').removeClass();
+      	$('body').addClass('sf');
+      console.log('sf submitted');	
+	}
+	else if 
+		(city.val() == 'LA' ||
+        city.val() == 'LAX' ||
+        city.val() == 'Las Angeles') { 
+       	$('body').removeClass();
+      	$('body').addClass('la');
+      console.log('la submitted');	
+	}
+	else if 
+		(city.val() == 'New York City' ||
+        city.val() == 'New York' ||
+        city.val() == 'NYC') { 
+       	$('body').removeClass();
+      	$('body').addClass('nyc');
+      console.log('nyc submitted');	
+	}
+	else if
+		(city.val() == 'Sydney' ||
+        city.val() == 'SYD' ||
+        city.val() == 'sydney') { 
+       	$('body').removeClass();
+      	$('body').addClass('sydney');
+      console.log('sydney submitted');	
+		
+	}
 
-	else if (city = $("SF")) {
-	$("body").css("background-image", "url(file:///Users/bonnie/Desktop/code/fewd/15_moar_events/assignment/images/sf.jpg)");
-	} 
 });
 
-//Create if / else if / else conditionals to control the flow of your application
 
 
-//If a user submits "New York" or "New York City" or "NYC" make the background of the page nyc.jpg
 
-//If a user submits "San Francisco" or "SF" or "Bay Area" make the background of the page sf.jpg
 
-//If a user submits "Los Angeles" or "LA" or "LAX" make the background of the page la.jpg
 
-//If a user submits "Austin" or "ATX" make the background of the page austin.jpg
 
 //If a user submits "Sydney" or "SYD" make the background of the page sydney.jpg
